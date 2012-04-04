@@ -2,7 +2,7 @@
   "author": "Dennis Geurts <dennisg@dennisg.nl>",
   "name": "cradle-url",
   "description": "connect to a CouchDB using a single URL",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "url": "https://www.github.com/dennisg/node-cradle-url"
   },
