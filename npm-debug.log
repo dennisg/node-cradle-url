@@ -1,0 +1,138 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.5
+4 verbose publish [ '.' ]
+5 verbose read json /Users/dennisg/workspace/shell/data/node-cradle-url/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /Users/dennisg/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+14 verbose folder .
+15 info prepublish cradle-url@0.0.5
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /Users/dennisg/.npm/3a52ce78-.lock
+18 silly lockFile 134d5b9e-03199-0-9834665765520185-tmp-tgz /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+19 verbose lock /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz /Users/dennisg/.npm/134d5b9e-03199-0-9834665765520185-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 134d5b9e-03199-0-9834665765520185-tmp-tgz /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+23 silly lockFile 134d5b9e-03199-0-9834665765520185-tmp-tgz /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+24 verbose tar unpack /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+25 silly lockFile 39f7f50e-03199-0-9834665765520185-package /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+26 verbose lock /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package /Users/dennisg/.npm/39f7f50e-03199-0-9834665765520185-package.lock
+27 silly lockFile 134d5b9e-03199-0-9834665765520185-tmp-tgz /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+28 verbose lock /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz /Users/dennisg/.npm/134d5b9e-03199-0-9834665765520185-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm extractEntry .npmignore
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm extractEntry app.js
+34 silly gunzTarPerm extractEntry .project
+35 silly gunzTarPerm extractEntry .travis.yml
+36 silly gunzTarPerm extractEntry lib/main.js
+37 verbose read json /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package/package.json
+38 silly lockFile 39f7f50e-03199-0-9834665765520185-package /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+39 silly lockFile 39f7f50e-03199-0-9834665765520185-package /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+40 silly lockFile 134d5b9e-03199-0-9834665765520185-tmp-tgz /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+41 silly lockFile 134d5b9e-03199-0-9834665765520185-tmp-tgz /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/tmp.tgz
+42 verbose from cache /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package/package.json
+43 verbose tar pack [ '/Users/dennisg/.npm/cradle-url/0.0.5/package.tgz',
+43 verbose tar pack   '/var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package' ]
+44 verbose tarball /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+45 verbose folder /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+46 silly lockFile 39f7f50e-03199-0-9834665765520185-package /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+47 verbose lock /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package /Users/dennisg/.npm/39f7f50e-03199-0-9834665765520185-package.lock
+48 silly lockFile 7dbdafc2-npm-cradle-url-0-0-5-package-tgz /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+49 verbose lock /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz /Users/dennisg/.npm/7dbdafc2-npm-cradle-url-0-0-5-package-tgz.lock
+50 silly lockFile 39f7f50e-03199-0-9834665765520185-package /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+51 silly lockFile 39f7f50e-03199-0-9834665765520185-package /var/folders/8r/y653hb7s70329twn1h8xgkdh0000gn/T/npm-12028/1367263503199-0.9834665765520185/package
+52 silly lockFile 7dbdafc2-npm-cradle-url-0-0-5-package-tgz /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+53 silly lockFile 7dbdafc2-npm-cradle-url-0-0-5-package-tgz /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+54 silly lockFile a9b890ad-isg-npm-cradle-url-0-0-5-package /Users/dennisg/.npm/cradle-url/0.0.5/package
+55 verbose lock /Users/dennisg/.npm/cradle-url/0.0.5/package /Users/dennisg/.npm/a9b890ad-isg-npm-cradle-url-0-0-5-package.lock
+56 silly lockFile a9b890ad-isg-npm-cradle-url-0-0-5-package /Users/dennisg/.npm/cradle-url/0.0.5/package
+57 silly lockFile a9b890ad-isg-npm-cradle-url-0-0-5-package /Users/dennisg/.npm/cradle-url/0.0.5/package
+58 verbose tar unpack /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+59 silly lockFile a9b890ad-isg-npm-cradle-url-0-0-5-package /Users/dennisg/.npm/cradle-url/0.0.5/package
+60 verbose lock /Users/dennisg/.npm/cradle-url/0.0.5/package /Users/dennisg/.npm/a9b890ad-isg-npm-cradle-url-0-0-5-package.lock
+61 silly lockFile 7dbdafc2-npm-cradle-url-0-0-5-package-tgz /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+62 verbose lock /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz /Users/dennisg/.npm/7dbdafc2-npm-cradle-url-0-0-5-package-tgz.lock
+63 silly gunzTarPerm modes [ '755', '644' ]
+64 silly gunzTarPerm extractEntry package.json
+65 silly gunzTarPerm extractEntry .npmignore
+66 silly gunzTarPerm extractEntry README.md
+67 silly gunzTarPerm extractEntry app.js
+68 silly gunzTarPerm extractEntry .project
+69 silly gunzTarPerm extractEntry .travis.yml
+70 silly gunzTarPerm extractEntry lib/main.js
+71 verbose read json /Users/dennisg/.npm/cradle-url/0.0.5/package/package.json
+72 silly lockFile a9b890ad-isg-npm-cradle-url-0-0-5-package /Users/dennisg/.npm/cradle-url/0.0.5/package
+73 silly lockFile a9b890ad-isg-npm-cradle-url-0-0-5-package /Users/dennisg/.npm/cradle-url/0.0.5/package
+74 silly lockFile 7dbdafc2-npm-cradle-url-0-0-5-package-tgz /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+75 silly lockFile 7dbdafc2-npm-cradle-url-0-0-5-package-tgz /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+76 silly shasum updated bytes 1117
+77 info shasum a81ae4bd64034cb625be15f2ae1fc778d48d1a7f
+77 info shasum /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz
+78 verbose from cache /Users/dennisg/.npm/cradle-url/0.0.5/package/package.json
+79 verbose chmod /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz 644
+80 verbose chown /Users/dennisg/.npm/cradle-url/0.0.5/package.tgz [ 501, 20 ]
+81 silly lockFile 3a52ce78- .
+82 silly publish { author: { name: 'Dennis Geurts', email: 'dennisg@dennisg.nl' },
+82 silly publish   name: 'cradle-url',
+82 silly publish   description: 'connect to a CouchDB using a single URL',
+82 silly publish   version: '0.0.5',
+82 silly publish   repository: { url: 'https://www.github.com/dennisg/node-cradle-url' },
+82 silly publish   main: 'lib/main.js',
+82 silly publish   engines: { node: '~0.6.10' },
+82 silly publish   dependencies: { cradle: '0.6.5', url: '0.4.9' },
+82 silly publish   devDependencies: {},
+82 silly publish   optionalDependencies: {},
+82 silly publish   readme: '[![build status](https://secure.travis-ci.org/dennisg/node-cradle-url.png)](http://travis-ci.org/dennisg/node-cradle-url)\n',
+82 silly publish   readmeFilename: 'README.md',
+82 silly publish   _id: 'cradle-url@0.0.5',
+82 silly publish   dist: { shasum: 'a81ae4bd64034cb625be15f2ae1fc778d48d1a7f' },
+82 silly publish   _from: '.' }
+83 verbose url raw cradle-url
+84 verbose url resolving [ 'https://registry.npmjs.org/', './cradle-url' ]
+85 verbose url resolved https://registry.npmjs.org/cradle-url
+86 info trying registry request attempt 1 at 21:25:15
+87 http PUT https://registry.npmjs.org/cradle-url
+88 http 409 https://registry.npmjs.org/cradle-url
+89 verbose url raw cradle-url
+90 verbose url resolving [ 'https://registry.npmjs.org/', './cradle-url' ]
+91 verbose url resolved https://registry.npmjs.org/cradle-url
+92 info trying registry request attempt 1 at 21:25:16
+93 http GET https://registry.npmjs.org/cradle-url
+94 http 200 https://registry.npmjs.org/cradle-url
+95 error publish fail Cannot publish over existing version.
+95 error publish fail Update the 'version' field in package.json and try again.
+95 error publish fail
+95 error publish fail If the previous version was published in error, see:
+95 error publish fail     npm help unpublish
+95 error publish fail
+95 error publish fail To automatically increment version numbers, see:
+95 error publish fail     npm help version
+96 error System Darwin 12.3.0
+97 error command "node" "/usr/local/bin/npm" "publish"
+98 error cwd /Users/dennisg/workspace/shell/data/node-cradle-url
+99 error node -v v0.10.5
+100 error npm -v 1.2.18
+101 error code EPUBLISHCONFLICT
+102 verbose exit [ 1, true ]
