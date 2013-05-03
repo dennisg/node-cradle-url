@@ -4,7 +4,7 @@
   "description": "connect to a CouchDB using a single URL",
   "version": "0.0.7",
   "repository": {
-    "url": "https://www.github.com/dennisg/node-cradle-url"
+    "url": "https://github.com/dennisg/node-cradle-url"
   },
   "main": "lib/main.js",
   "engines": {
